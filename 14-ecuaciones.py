@@ -36,7 +36,7 @@ def gauss_jordan(m, v, n):
 
 num = int(input("Número de ecuaciones e incógnitas: "))
 
-# Inicalizar el vector de constantes
+# Inicializar el vector de constantes
 vec = [0] * num
 
 # Inicializar la matriz de coeficientes
