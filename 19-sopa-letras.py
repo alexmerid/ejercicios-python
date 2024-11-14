@@ -20,9 +20,8 @@ def mostrar_sopa(sop, enc):
                 fila = fila+sop[f][c] + " "
         print(fila)
 
+
 # Función para "pintar" la matriz de encontrados
-
-
 def pintar(pal, enc, i, j, inc_i, inc_j):
     for c in range(len(pal)):
         enc[i][j] = True
@@ -32,8 +31,6 @@ def pintar(pal, enc, i, j, inc_i, inc_j):
 
 # Función para verificar si existe una palabra en una posicion de la Sopa
 def ver_pal(pal, sop, i, j, inc_i, inc_j):
-    i_enc = i
-    j_enc = j
     c_pal = 0
     enc = ""
     while c_pal < len(pal) and sop[i][j] == pal[c_pal]:
